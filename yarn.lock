@@ -2039,20 +2039,20 @@ next@latest:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
-nextra-theme-blog@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/nextra-theme-blog/-/nextra-theme-blog-0.1.4.tgz#a8ecff1b917604ece953209e5971e63d9682441b"
-  integrity sha512-AV6OZbP5EskohTg/pr6CvWrCrixdE+aMfTWB6wJ9M17LdM5p5QXaLuHFFupwuwxj9h58oQMqtG6POcy5KLzLsA==
+nextra-theme-blog@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/nextra-theme-blog/-/nextra-theme-blog-0.1.5.tgz#59e3e340e43b3f6531de3a0bc7ab4351999e2d2f"
+  integrity sha512-YwUN/xzdbqYxIcqNMzyQuC4sboK0l1NCnxWJaXoTO3TxWtD4pfY6/ztIt4BEh8x+sKbQKqEjj3mLwDApbu9Pbg==
   dependencies:
     "@mdx-js/react" "^1.6.18"
     "@tailwindcss/typography" "^0.2.0"
     github-slugger "^1.3.0"
     prism-react-renderer "^1.1.1"
 
-nextra@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/nextra/-/nextra-0.4.3.tgz#ab7c0616e60e1599991f988a1d67524df74816a7"
-  integrity sha512-ggfP0A+EfJ1FRxMVDw/7sdGVXe4kWz4ZpnQlU1YIn4/ws4jYrqyZ9YLyfAIadopcyB2OR1L1xdH7VVxnN8wSGQ==
+nextra@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/nextra/-/nextra-0.4.4.tgz#95a72822da09bd4ef8090d7a5dccba5de806ab69"
+  integrity sha512-sVFwByKwP1Luo2D4WL0A29u7h0PgPv997Phy0CwupL6TQTl0TrgoWmWSj7IA7kaxS9TCtQvf0FDOy5ewJ0wszw==
   dependencies:
     "@mdx-js/loader" "^2.0.0-next.8"
     download "^8.0.0"
