@@ -1,43 +1,101 @@
 @font-face {
-  font-family: 'Inter var';
+  font-family: 'Share Tech Mono';
+  src: url(/fonts/share-tech-mono-v10-latin-regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: "Inter var";
   font-style: normal;
   font-weight: 100 900;
   font-display: block;
-  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
+  src: url(/fonts/Inter-roman.latin.var.woff2) format("woff2");
 }
 @font-face {
-  font-family: 'Inter var';
+  font-family: "Inter var";
   font-style: italic;
   font-weight: 100 900;
   font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
+  src: url(/fonts/Inter-italic.latin.var.woff2) format("woff2");
+  font-named-instance: "Italic";
 }
 
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Inter var", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
-    'cv03' 1, 'cv04' 1;
-  font-variation-settings: 'wght' 450;
+  font-feature-settings: "case" 1, "cpsp" 1, "dlig" 1, "cv01" 1, "cv02",
+    "cv03" 1, "cv04" 1;
+  font-variation-settings: "wght" 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
 }
+
 b,
-strong,
+strong {
+  font-variation-settings: "wght" 680;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  font-variation-settings: 'wght' 650;
-}
-h1 {
-  font-variation-settings: 'wght' 850;
+  font-variation-settings: "wght" 600;
 }
 h2 {
-  font-variation-settings: 'wght' 750;
+  font-variation-settings: "wght" 650;
+  letter-spacing: -0.024em;
+}
+h1 {
+  font-variation-settings: "wght" 700;
+}
+
+.post-item-more {
+  display: none;
+}
+
+.post-item {
+  margin-bottom: 3rem;
+}
+
+.post-item h3 {
+  margin-bottom: 0.5rem;
+}
+
+.post-item .post-item-desc {
+  color: #718096;
+}
+
+.post-item .post-item-date {
+  color: #b9bfcc;
+}
+
+article.prose {
+  color: #313233;
+  font-variation-settings: "wght" 450;
+}
+
+article.md\:prose h1 {
+  font-size: 2em;
+  margin-bottom: 0.4em;
+}
+
+article.prose code::before,
+article.prose code::after {
+  content: none;
+}
+article.prose code {
+  font-size: 0.95em;
+  padding: 0 0.1em;
+}
+article.prose a {
+  word-break: break-word;
+}
+
+@media screen and (max-width: 480px) {
+  article {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
@@ -56,10 +114,16 @@ img.next-image {
   margin: 0;
 }
 
-.prose a {
-  color: #0074de;
+.vercel-icon {
+  font-family: sans-serif;
 }
 
-.nav-line .nav-link {
-  color: #69778c;
+article.prose pre {
+  background-color: #f7f7f7 !important;
+  letter-spacing: 0;
+  font-size: 0.8rem;
+}
+article.prose pre code {
+  display: inline-block;
+  padding: 0;
 }
