@@ -8,7 +8,7 @@ module.exports = withNextra({
                 headers: [
                     {
                         key: 'Content-Security-Policy',
-                        value: 'pgrade-insecure-requests'
+                        value: 'upgrade-insecure-requests'
                     },
                     {
                         key: 'Strict-Transport-Security',
