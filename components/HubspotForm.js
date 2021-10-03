@@ -11,7 +11,7 @@ export default function HubspotForm() {
                 window.hbspt.forms.create({
                     portalId: '20789954',
                     formId: 'a8355c52-9a53-4fe9-8ec0-a62e2c397bcd',
-                    target: '#hubspotForm'
+                    target: '#hubspotForm',
                 });
             }
         });
