@@ -1,7 +1,7 @@
-import { useEffect, render } from "react";
+import { useEffect, render, Component } from "react";
 
-export default function HubspotForm() {
-    useEffect(() => {
+export class HubspotForm extends Component {
+    componentDidMount() {
         const script = document.createElement('script');
         script.src = 'https://js.hsforms.net/forms/v2.js';
         document.body.appendChild(script);
@@ -15,9 +15,13 @@ export default function HubspotForm() {
                 });
             }
         });
-    });
+    }
 
-    return (
-        <div id="hubspotForm"></div>
-    )
+    render() {
+        return (
+            <div id="hubspotForm"></div>
+        )
+    }
 }
+
+export default HubspotForm
