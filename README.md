@@ -7,6 +7,7 @@ This portfolio is built with **Next.js** and a library called [Nextra](https://n
 - A beautiful theme included out of the box
 - Easily categorize posts with tags
 - Fast, optimized web font loading
+- Automatically create sitemap files
 
 ## Configuration
 
@@ -14,6 +15,7 @@ This portfolio is built with **Next.js** and a library called [Nextra](https://n
 1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
 1. Update the meta tags in `pages/_document.js`.
 1. Update the posts inside `pages/posts/*.md` with your own content.
+1. Update the URL in `next-sitemap.js` with your production URL.
 
 ## Deploy your own
 

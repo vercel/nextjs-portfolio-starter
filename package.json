@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "node ./scripts/gen-rss.js && next build",
+    "postbuild": "next-sitemap",
     "start": "next start"
   },
   "dependencies": {
@@ -21,5 +22,8 @@
     "tabWidth": 2,
     "trailingComma": "none",
     "semi": false
+  },
+  "devDependencies": {
+    "next-sitemap": "^2.5.19"
   }
 }
