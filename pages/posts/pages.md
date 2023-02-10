@@ -12,7 +12,7 @@ In Next.js, a **page** is a [React Component](https://reactjs.org/docs/component
 
 **Example**: If you create `pages/about.js` that exports a React component like below, it will be accessible at `/about`.
 
-```
+```js
 function About() {
   return <div>About</div>
 }
@@ -55,7 +55,7 @@ In Next.js, you can statically generate pages **with or without data**. Let's ta
 
 By default, Next.js pre-renders pages using Static Generation without fetching data. Here's an example:
 
-```
+```js
 function About() {
   return <div>About</div>
 }
@@ -76,7 +76,7 @@ Some pages require fetching external data for pre-rendering. There are two scena
 
 **Example**: Your blog page might need to fetch the list of blog posts from a CMS (content management system).
 
-```
+```js
 // TODO: Need to fetch `posts` (by calling some API endpoint)
 //       before this page can be pre-rendered.
 function Blog({ posts }) {
@@ -94,7 +94,7 @@ export default Blog
 
 To fetch this data on pre-render, Next.js allows you to `export` an `async` function called `getStaticProps` from the same file. This function gets called at build time and lets you pass fetched data to the page's `props` on pre-render.
 
-```
+```js
 function Blog({ posts }) {
   // Render posts...
 }
@@ -133,7 +133,7 @@ Later, you might add the second post with `id: 2`. Then you'd want to pre-render
 
 So your page **paths** that are pre-rendered depend on external data**.** To handle this, Next.js lets you `export` an `async` function called `getStaticPaths` from a dynamic page (`pages/posts/[id].js` in this case). This function gets called at build time and lets you specify which paths you want to pre-render.
 
-```
+```js
 // This function gets called at build time
 export async function getStaticPaths() {
   // Call an external API endpoint to get posts
@@ -153,7 +153,7 @@ export async function getStaticPaths() {
 
 Also in `pages/posts/[id].js`, you need to export `getStaticProps` so that you can fetch the data about the post with this `id` and use it to pre-render the page:
 
-```
+```js
 function Post({ post }) {
   // Render post...
 }
@@ -208,7 +208,7 @@ To use Server-side Rendering for a page, you need to `export` an `async` functio
 
 For example, suppose that your page needs to pre-render frequently updated data (fetched from an external API). You can write `getServerSideProps` which fetches this data and passes it to `Page` like below:
 
-```
+```js
 function Page({ data }) {
   // Render data...
 }
