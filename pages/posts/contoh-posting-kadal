@@ -1,23 +1,99 @@
-# Kadal Terbang: Mitos atau Fakta?
-
-*oleh [Nama Anda]*
-
-## Pendahuluan
-
-Kadal terbang, seringkali disebut sebagai reptil ajaib yang dapat terbang seperti burung. Apakah kadal terbang itu benar-benar ada, ataukah ini hanya mitos? Dalam artikel ini, kita akan menyelidiki fenomena ini dan mencoba memahami apakah kadal terbang hanyalah hasil dari imajinasi atau ada dasar ilmiah di baliknya.
-
-## Kadal Terbang dalam Mitos dan Legenda
-
-Sejak zaman kuno, kisah tentang kadal terbang telah tersebar di berbagai budaya di seluruh dunia. Beberapa mitos menggambarkan kadal terbang sebagai makhluk magis yang membawa keberuntungan, sementara yang lain mengaitkannya dengan peramal dan penyihir. Meskipun mitos ini menarik, kita perlu menggali lebih dalam untuk mencari kebenaran di baliknya.
-
-## Penelitian Ilmiah
-
-Penelitian ilmiah tentang kadal terbang masih terus berlanjut. Ada beberapa spesies kadal yang dapat "terbang" dalam arti tertentu, yaitu dengan meluncur dari ketinggian tertentu dan mengendalikan gerakan mereka dengan membran kulit khusus. Namun, kadal ini tidak benar-benar mampu terbang seperti burung atau kelelawar. Mereka lebih mengandalkan gliding atau plane glide untuk berpindah tempat.
-
-## Kesimpulan
-
-Meskipun kadal terbang seringkali muncul dalam mitos dan legenda, penelitian ilmiah menunjukkan bahwa kemampuan terbang mereka lebih terbatas daripada yang sering dibayangkan. Kadal terbang sejati tidak ada, namun masih banyak yang menarik untuk dipelajari tentang perilaku kadal yang mampu meluncur dari pohon ke pohon. Kita terus belajar lebih banyak tentang makhluk-makhluk ini dan menghilangkan banyak misteri di sekitarnya.
-
+---
+title: Markdown Examples
+date: 2021/3/19
+description: View examples of all possible Markdown options.
+tag: web development
+author: You
 ---
 
-&copy; 2023 [Nama Anda]. Seluruh hak cipta dilindungi.
+# Markdown Examples
+
+## h2 Heading
+
+### h3 Heading
+
+#### h4 Heading
+
+##### h5 Heading
+
+###### h6 Heading
+
+## Emphasis
+
+**This is bold text**
+
+_This is italic text_
+
+~~Strikethrough~~
+
+## Blockquotes
+
+> Develop. Preview. Ship. – Vercel
+
+## Lists
+
+Unordered
+
+- Lorem ipsum dolor sit amet
+- Consectetur adipiscing elit
+- Integer molestie lorem at massa
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+## Code
+
+Inline `code`
+
+```
+export default function Nextra({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="RSS"
+          href="/feed.xml"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Inter-roman.latin.var.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
+}
+```
+
+## Tables
+
+| **Option** | **Description**                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| First      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+| Second     | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+| Third      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+
+## Links
+
+- [Next.js](https://nextjs.org)
+- [Nextra](https://nextra.vercel.app/)
+- [Vercel](http://vercel.com)
+
+### Footnotes
+
+- Footnote [^1].
+- Footnote [^2].
+
+[^1]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^2]: Footnote text.
