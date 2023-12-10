@@ -25,6 +25,7 @@ author: You
 _This is italic text_
 
 ~~Strikethrough~~
+~~123~~
 
 ## Blockquotes
 
