@@ -30,8 +30,8 @@ importers:
         specifier: latest
         version: 4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.0.2)
       nextra-theme-blog:
-        specifier: latest
-        version: 4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nextra@4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.0.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: ^2.13.2
+        version: 2.13.2(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nextra@4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.0.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       path:
         specifier: latest
         version: 0.12.7
@@ -1394,18 +1394,12 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  next-themes@0.4.6:
-    resolution: {integrity: sha512-pZvgD5L0IEvX5/9GWyHMf3m8BKiVQwsCMHfoFosXtXBMnaS0ZnIJ9ST4b4NqLVKDEm8QBxoNNGNaBv2JNF6XNA==}
+  next-themes@0.2.1:
+    resolution: {integrity: sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==}
     peerDependencies:
-      react: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
-      react-dom: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
-
-  next-view-transitions@0.3.4:
-    resolution: {integrity: sha512-SSiskenQ8JkEFGzPjvFwC5LGGoqgTxM5dxexkeugxvcXFLpWI2ZUh4IsCURD3ovW+8Ue7xXlrtrpy8b7XR7IwQ==}
-    peerDependencies:
-      next: '>=14.0.0'
-      react: ^18.2.0
-      react-dom: ^18.2.0
+      next: '*'
+      react: '*'
+      react-dom: '*'
 
   next@13.5.6:
     resolution: {integrity: sha512-Y2wTcTbO4WwEsVb4A8VSnOsG1I9ok+h74q0ZdxkwM3EODqrs4pasq7O0iUxbcS9VtWMicG7f3+HAj0r1+NtKSw==}
@@ -1422,13 +1416,17 @@ packages:
       sass:
         optional: true
 
-  nextra-theme-blog@4.6.0:
-    resolution: {integrity: sha512-Fo3nhxiN4t4561XoQHHxPiuuhgZblCbMU1AWNe9w/pgU0TZowOCxiVtVmvNVVmg7GV8n+JmZAOzInR9Zfi57Rg==}
+  nextra-theme-blog@2.13.2:
+    resolution: {integrity: sha512-/g2Y/e0PkyXhDo0wuybb9+9hKQRLATWzFvKBzwcLq7XwOYT5njn/bHY/kx5zzkVyNkLnH5maz/EXOTlfG1b27Q==}
     peerDependencies:
-      next: '>=14'
-      nextra: 4.6.0
-      react: '>=18'
-      react-dom: '>=18'
+      next: '>=9.5.3'
+      nextra: 2.13.2
+      react: '>=16.13.1'
+      react-cusdis: ^2.1.3
+      react-dom: '>=16.13.1'
+    peerDependenciesMeta:
+      react-cusdis:
+        optional: true
 
   nextra@4.6.0:
     resolution: {integrity: sha512-7kIBqQm2aEdHTtglcKDf8ZZMfPErY8iVym2a7ujEWUoHbCc5zsWloYdrtSHDRTmOH/hCqSsWJDZX+2lleKQscw==}
@@ -3703,12 +3701,7 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  next-themes@0.4.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-
-  next-view-transitions@0.3.4(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next-themes@0.2.1(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       next: 13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
@@ -3739,14 +3732,12 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nextra-theme-blog@4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nextra@4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.0.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  nextra-theme-blog@2.13.2(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nextra@4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.0.2))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       next: 13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      next-themes: 0.4.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      next-view-transitions: 0.3.4(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next-themes: 0.2.1(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       nextra: 4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.0.2)
       react: 18.2.0
-      react-compiler-runtime: 19.1.0-rc.3(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
 
   nextra@4.6.0(next@13.5.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.0.2):

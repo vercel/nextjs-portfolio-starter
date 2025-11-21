@@ -21,7 +21,7 @@
     "lucide-react": "^0.454.0",
     "next": "^13.5.6",
     "nextra": "latest",
-    "nextra-theme-blog": "latest",
+    "nextra-theme-blog": "^2.13.2",
     "path": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
