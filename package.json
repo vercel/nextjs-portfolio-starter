@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
-    "next": "^13.5.6",
-    "nextra": "^2.13.2",
-    "nextra-theme-blog": "^2.13.2",
+    "next": "^14.2.5",
+    "nextra": "^3.0.0",
+    "nextra-theme-blog": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rss": "^1.2.2"
@@ -23,3 +23,4 @@
     "semi": false
   }
 }
+
