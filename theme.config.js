@@ -1,9 +1,11 @@
+import React from 'react'
+
 const YEAR = new Date().getFullYear()
 
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Alekasner Shchetinin.
+      <time>{YEAR}</time> © Aleksander Shchetinin.
       <a href="/feed.xml">RSS</a>
       <style jsx>{`
         a {

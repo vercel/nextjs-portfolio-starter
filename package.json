@@ -2,15 +2,15 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev --webpack",
     "build": "node ./scripts/gen-rss.js && next build",
     "start": "next start"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
-    "next": "^13.5.6",
-    "nextra": "^2.13.2",
-    "nextra-theme-blog": "^2.13.2",
+    "next": "^16.2.11",
+    "nextra": "2.13.2",
+    "nextra-theme-blog": "2.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rss": "^1.2.2"
