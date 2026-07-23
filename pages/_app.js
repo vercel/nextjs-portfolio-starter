@@ -10,15 +10,14 @@ export default function App({ Component, pageProps }) {
 
 useEffect(() => {
   const path = router.asPath;
-  document.body.classList.remove('home-bg', 'portfolio-bg', 'blog-bg', 'teaching-bg');
+  document.body.classList.remove('home-bg', 'portfolio-bg', 'blog-bg', 'teaching-bg', 'project-bg');
   
   if (path === '/') document.body.classList.add('home-bg');
   else if (path.includes('/posts/teaching')) document.body.classList.add('teaching-bg');
   else if (path.includes('/posts')) document.body.classList.add('blog-bg');
+  else if (path.includes('/projects')) document.body.classList.add('project-bg');
   else if (path.includes('/portfolio')) document.body.classList.add('portfolio-bg');
 }, [router.asPath]);
-
-
 
     return (
     <>

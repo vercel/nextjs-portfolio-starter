@@ -7,8 +7,28 @@ pageClass: home-bg
 
 # Shchetinin Aleksander
 
+<div style={{ textAlign: 'justify' }}>
 Hey, I'm a Java Backend developer with commercial experience in developing enterprise applications and more than four years of work in the IT field.
+</div>
 
+import Image from 'next/image'
+
+<Image
+  src="/images/me_profile.jpg"
+  alt="Photo"
+  width={300}
+  height={250}
+  priority
+  className="next-image block mx-auto md:float-right md:ml-6 md:mb-4 rounded-lg"
+  style={{ 
+    float: 'right', 
+    marginLeft: '10px', 
+    marginBottom: '15px',
+    borderRadius: '8px'
+  }}
+/>
+
+<div style={{ textAlign: 'justify' }}>
 The main direction of my professional development is the Java and Spring ecosystem. 
 I am interested in creating reliable, scalable backend services, designing application architecture, 
 optimizing performance, and building modern microservice solutions.
@@ -22,7 +42,7 @@ Teaching helps to better understand the language, architectural approaches, and 
 
 In the coming years, I plan to fully focus on developing as a Java Backend Developer, 
 exploring modern approaches to building high-load systems, and working in a strong engineering team.
-
+</div>
 
 ---
 

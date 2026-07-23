@@ -25,30 +25,28 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
- /* background-image: url('/images/s21_vrubel_dark.jpg');*/
-  background-size: cover;       /* растягивает фото на весь экран */
-  background-position: center;  /* центрирует фото */
-  background-attachment: fixed; /* чтобы фон не прокручивался вместе с текстом */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: #f8f8f8;
   transition: background 0.5s ease;
 }
-/* Классы для разных тем */
 body.home-bg {
   background-image: url('/images/s21_vrubel_dark.jpg');
 }
-
 body.portfolio-bg {
   background-image: url('/images/dark_absolute.jpg');
 }
-
 body.blog-bg {
   background-image: url('/images/java-logo.png');
 }
 body.teaching-bg {
   background-image: url('/images/omstu.jpg');
 }
-
+body.project-bg {
+  background-image: url('/images/projects_java.jpg');
+}
 
 b,
 strong,
@@ -64,7 +62,6 @@ h1 {
 h2 {
   font-variation-settings: 'wght' 750;
 }
-
 
 
 @media screen and (min-device-pixel-ratio: 1.5),

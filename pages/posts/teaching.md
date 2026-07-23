@@ -1,5 +1,5 @@
 ---
-title: Teach programmes
+title: Teaching programmes
 date: 2026/6/20
 description: My repositories with training materials and authors for which I recommend
 tag: development
