@@ -1,48 +1,25 @@
 ---
-title: Markdown Examples
-date: 2026/7/23
-description: View examples of all possible Markdown options.
-tag: web development
-author: You
+title: Teach programmes
+date: 2026/6/20
+description: My repositories with teaching developer projects
+tag: development
+author: Aleksander Shchetinin
 ---
 
-# Markdown Examples
 
-## h2 Heading
+## Java Core lectures
 
-### h3 Heading
+Topics about Java Core with an introduction to the Spring Framework are covered here. 
+OOP and Java 8+ functionality are discussed in detail.
 
-#### h4 Heading
+[Go to the repositories](https://gitlab.com/polytech-study/java-lectures)
 
-##### h5 Heading
+## PostrgeSQL mini-course
 
-###### h6 Heading
+A mini-course on PostgeSQL in a practical part for novice developers, analysts and students.
 
-## Emphasis
+[Go to the repositories](https://gitlab.com/sskier-group/sql-practicum)
 
-**This is bold text**
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Develop. Preview. Ship. – Vercel
-
-## Lists
-
-Unordered
-
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit
-- Integer molestie lorem at massa
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
 
 ## Code
 

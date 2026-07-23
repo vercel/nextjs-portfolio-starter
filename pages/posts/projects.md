@@ -1,12 +1,14 @@
 ---
-title: Next.js Pages
-date: 2021/3/18
-description: Learn more about Next.js pages.
-tag: web development
-author: You
+title: Projects
+description: my projects that can be published in the public domain
+date: 2025/10/16
+tag: Java projects
+author: Aleksander Shchetinin
+pageClass: portfolio-bg
 ---
 
-# Next.js Pages
+# 
+
 
 In Next.js, a **page** is a [React Component](https://reactjs.org/docs/components-and-props.html) exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. Each page is associated with a route based on its file name.
 
