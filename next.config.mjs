@@ -7,4 +7,9 @@ const withNextraConfig = nextra({
 
 export default withNextraConfig({
   reactStrictMode: true,
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
 })

@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "node ./scripts/gen-rss.js && next build",
+    "build": "node ./scripts/gen-rss.js && next build --webpack",
     "start": "next start"
   },
   "dependencies": {
