@@ -45,6 +45,10 @@ body.portfolio-bg {
 body.blog-bg {
   background-image: url('/images/java-logo.png');
 }
+body.teaching-bg {
+  background-image: url('/images/omstu.jpg');
+}
+
 
 b,
 strong,

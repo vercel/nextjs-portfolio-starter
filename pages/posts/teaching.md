@@ -1,9 +1,10 @@
 ---
 title: Teach programmes
 date: 2026/6/20
-description: My repositories with teaching developer projects
+description: My repositories with training materials and authors for which I recommend
 tag: development
 author: Aleksander Shchetinin
+pageClass: teaching-bg
 ---
 
 
@@ -14,63 +15,23 @@ OOP and Java 8+ functionality are discussed in detail.
 
 [Go to the repositories](https://gitlab.com/polytech-study/java-lectures)
 
+---
+
 ## PostrgeSQL mini-course
 
 A mini-course on PostgeSQL in a practical part for novice developers, analysts and students.
 
 [Go to the repositories](https://gitlab.com/sskier-group/sql-practicum)
 
+---
 
-## Code
+## School 21
 
-Inline `code`
+An IT school where everyone can study any specialty from scratch and create a networking.
+Since 2025, I have been additionally studying here as a backend developer.
 
-```js
-export default function Nextra({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="/feed.xml"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Inter-roman.latin.var.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      </Head>
-      <Component {...pageProps} />
-    </>
-  )
-}
-```
+[View on the website](https://21-school.ru/)
 
-## Tables
+---
 
-| **Option** | **Description**                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| First      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Second     | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Third      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
 
-## Links
-
-- [Next.js](https://nextjs.org)
-- [Nextra](https://nextra.vercel.app/)
-- [Vercel](http://vercel.com)
-
-### Footnotes
-
-- Footnote [^1].
-- Footnote [^2].
-
-[^1]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^2]: Footnote text.

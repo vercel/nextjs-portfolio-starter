@@ -1,5 +1,5 @@
 ---
-title: deepening teamwork skills at IT Camp 2024
+title: Deepening teamwork skills at IT Camp 2024
 date: 2024/9/03
 description: 
 tag: IT-Camp
